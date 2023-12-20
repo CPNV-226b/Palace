@@ -28,14 +28,30 @@ End of sequence : Regular Park
 
 4) Etudier le diagramme de classe et le diagramme de séquence
 
-![Class Diagram](./Img/ClassDiagram.JPG)
+![Class Diagram](./img/ClassDiagram.JPG)
 
-![Sequence Diagram](./Img/SequenceDiagram.JPG)
+![Sequence Diagram](./img/SequenceDiagram.JPG)
 
-### TODO
+5) Résultat à obtenir
 
-* Réaliser la séquence en codant le minimum nécessaire
-* Afficher chaque étape dans la console avec le nom de la classe qui annonce l'action réalisée
+Chaque méthode qui est appelée, annoncera son action ainsi:
 
-//TODO
+```
+Console.WriteLine($"Step 1.5 : [{GetType().Name}] put vehicle into parkedVehicle");
+```
 
+Coder le minimum pour arriver à ce résultat :
+
+```
+Welcome to my Palace !
+Start of sequence : Regular Park
+Step 1 : [ParkingLot] will park the vehicle
+Step 1.1 : [Vehicle] size
+Step 1.2 : [ParkingLot] vehicle already parked ?
+Step 1.3 : [ParkingLot] ChooseValet
+Step 1.4.1 : [Valet] Available
+Step 1.4.2 : [Vehicle] TurnOn
+Step 1.4.3 : [Vehicle] TurnOff
+Step 1.5 : [ParkingLot] put vehicle into parkedVehicle
+End of sequence : Regular Park
+```
