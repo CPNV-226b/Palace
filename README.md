@@ -3,6 +3,8 @@
 ## Sujet à traiter
 Nous allons réaliser un petit projet en lien avec la gestion d'un parking exploité par un palace (hôtle de luxe).
 
+[Vidéo de démonstration](https://youtu.be/wHEJ9ROrQ8s)
+
 ### Prise en main du code
 
 1)  Récupérer le dépôt
